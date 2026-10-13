@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donaus Music Uploader — internal YouTube publishing tool</title>
+<style>body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}h1{font-size:1.6rem}.yt{display:inline-flex;align-items:center;gap:8px;background:#f6f6f6;border-radius:8px;padding:8px 12px;margin:12px 0}.yt svg{width:28px;height:20px}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:12px;font-size:.95rem}footer a{margin-right:16px}</style>
+</head>
+<body>
+<h1>Donaus Music Uploader</h1>
+<p>A private, internal command-line tool used by the independent Thai music label <strong>ดลอัส มิวสิก (Donaus Music)</strong> to publish and manage its own original songs on its own YouTube channel: <a href="https://www.youtube.com/@donausmusic">youtube.com/@donausmusic</a>.</p>
+<div class="yt"><svg viewBox="0 0 28 20" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1A3.5 3.5 0 0 0 25 .7C22.8 0 14 0 14 0S5.2 0 3 .7A3.5 3.5 0 0 0 .6 3.1C0 5.3 0 10 0 10s0 4.7.6 6.9A3.5 3.5 0 0 0 3 19.3c2.2.7 11 .7 11 .7s8.8 0 11-.7a3.5 3.5 0 0 0 2.4-2.4c.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9z"/><path fill="#fff" d="M11.2 14.3 18.5 10l-7.3-4.3v8.6z"/></svg><span>Uses <strong>YouTube API Services</strong></span></div>
+<h2>What it does</h2>
+<ul>
+<li>Uploads the label's own full-length music videos and Shorts (original songs only).</li>
+<li>Sets titles, descriptions, thumbnails, privacy status and playlists on the label's own channel.</li>
+<li>Reads the channel's own video status and view counts to track what has been published.</li>
+</ul>
+<h2>Who uses it</h2>
+<p>Only the channel owner. The tool is not distributed, sold, or offered to any other person or channel. It signs in to the owner's Google account with OAuth 2.0 (scopes: <code>youtube</code>, <code>youtube.upload</code>).</p>
+<footer>
+<a href="/donausmusic-privacy.html">Privacy Policy</a>
+<a href="/donausmusic-terms.html">Terms of Service</a>
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+</footer>
+</body>
+</html>
